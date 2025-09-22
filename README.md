@@ -15,14 +15,14 @@ This project leverages transaction and historical hotel booking data to analyze 
 
 ## Technology Stack
 
-- **Primary language:** Jupyter Notebook
+- **Primary language:** Python
 - **Data Analysis & Modeling:** pandas, numpy, scikit-learn
 - **Visualization:** matplotlib, seaborn
 
 ## Project Structure
 
 - `notebooks/` — Main Jupyter notebooks for EDA, modeling, and results
-- `data/` — Input datasets (not included in repo for privacy)
+- `data/` — Input datasets (https://drive.google.com/file/d/1afGNqlSQJsToCk1dIh6b-JULY-beYFnb/view?usp=sharing)
 - `output/` — Generated charts and model results
 
 ## Getting Started
