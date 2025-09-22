@@ -36,7 +36,33 @@ This project leverages transaction and historical hotel booking data to analyze 
    Open in [Google Colab](https://colab.research.google.com/) or run locally in Jupyter Notebook.  
    Install required libraries if running locally:
    ```bash
-   pip install pandas numpy scikit-learn matplotlib seaborn
+   !pip install dalex
+   !pip install scikit-plot
+    ```
+    ```bash
+   # load pandas untuk data wrangling
+   import pandas as pd
+   # load numpy untuk manipulasi vektor
+   import numpy as np
+   # load matplotlib untuk visualisasi data
+   import matplotlib.pyplot as plt
+   # load seaborn untuk visualisasi data
+   import seaborn as sns
+    ```
+
+   ```bash
+   # load metrics object dari sklearn
+   from sklearn import metrics
+   # load train-test data splitter
+   from sklearn.model_selection import train_test_split
+   # load Decision Tree classifier model
+   from sklearn.tree import DecisionTreeClassifier
+   # load Random Forest classifier model
+   from sklearn.ensemble import RandomForestClassifier
+   #load logisic regression classifier model
+   from sklearn.linear_model import LogisticRegression
+   # load xgboost classifier model
+   from xgboost import XGBClassifier
    ```
 
 3. **Run the analysis:**  
